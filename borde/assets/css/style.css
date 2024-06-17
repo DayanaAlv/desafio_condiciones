@@ -1,0 +1,14 @@
+#main-image {
+    width: 300px;
+}
+.image-container {
+    display: inline-block;
+    cursor: pointer;
+}
+.image-container img {
+    border: 0; /* Borde inicialmente sin borde */
+    transition: border-color 0.3s ease; /* Transición suave */
+}
+.image-container img.active {
+    border: 2px solid red; /* Borde rojo cuando está activo */
+}

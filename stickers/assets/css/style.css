@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sticker {
+    display: inline-block;
+    margin: 10px;
+}
+.sticker img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-bottom: 5px;
+}
